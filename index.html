@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOAA AL BAHAR | Elite Uniform Manufacturing Oman</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --primary: #0a0a0a; --accent: #d4af37; --light: #f4f4f4; --white: #ffffff; }
+        body { font-family: 'Segoe UI', Tahoma, Arial, sans-serif; margin: 0; color: #333; line-height: 1.6; scroll-behavior: smooth; }
+        
+        /* Navigation with Contact Us in the Corner */
+        nav { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 15px 8%; 
+            background: var(--white); 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000; 
+        }
+        .logo { font-size: 24px; font-weight: 800; color: var(--primary); letter-spacing: 2px; text-decoration: none; }
+        .nav-right { display: flex; align-items: center; gap: 30px; }
+        .nav-links a { text-decoration: none; color: var(--primary); font-weight: 600; font-size: 13px; text-transform: uppercase; }
+        .btn-contact-nav { 
+            background: var(--accent); 
+            color: white !important; 
+            padding: 10px 20px; 
+            border-radius: 4px; 
+            font-size: 12px !important; 
+            transition: 0.3s;
+        }
+        .btn-contact-nav:hover { background: #b8962d; }
+        
+        /* Hero Section */
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('photo4.jpg.png?v=1.4'); 
+            height: 65vh; background-size: cover; background-position: center; 
+            display: flex; align-items: center; justify-content: center; text-align: center; color: var(--white); 
+        }
+        .hero h1 { font-size: 3.5rem; margin: 0; text-transform: uppercase; letter-spacing: 3px; }
+        .hero p { font-size: 1.3rem; margin: 20px 0; color: #ddd; max-width: 800px; }
+
+        /* Trust Bar */
+        .trust-bar { padding: 30px 8%; background: var(--light); text-align: center; border-bottom: 1px solid #ddd; }
+        .logos { display: flex; justify-content: center; gap: 25px; flex-wrap: wrap; font-weight: 700; color: #555; font-size: 0.9rem; letter-spacing: 1px; }
+
+        /* Portfolio Gallery */
+        .gallery-container { padding: 60px 8%; background: #fff; text-align: center; }
+        .gallery-container h2 { font-size: 2.5rem; margin-bottom: 40px; }
+        .gallery-container span { color: var(--accent); }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .gallery-card { border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); background: #fff; border: 1px solid #eee; transition: 0.3s; }
+        .gallery-card:hover { transform: translateY(-10px); }
+        .gallery-card img { width: 100%; height: 380px; object-fit: cover; display: block; }
+        .img-label { padding: 20px; font-weight: bold; background: #fff; text-align: left; }
+        .category-tag { color: var(--accent); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 5px; }
+
+        /* Contact Section */
+        .contact-section { padding: 80px 8%; display: flex; flex-wrap: wrap; gap: 50px; background: var(--light); }
+        .contact-info, .contact-form { flex: 1; min-width: 300px; }
+        .contact-form { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        input, textarea, select { width: 100%; padding: 14px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 6px; font-family: inherit; font-size: 15px; }
+        
+        .btn { display: inline-block; padding: 16px 32px; border-radius: 6px; text-decoration: none; font-weight: bold; cursor: pointer; border: none; width: 100%; text-align: center; transition: 0.3s; box-sizing: border-box; }
+        .btn-gold { background: var(--accent); color: #fff; text-transform: uppercase; letter-spacing: 1px; }
+        .whatsapp-btn { background: #25D366; color: white; margin-top: 15px; display: flex; align-items: center; justify-content: center; gap: 10px; font-size: 17px; }
+
+        footer { background: var(--primary); color: white; padding: 50px 8%; text-align: center; }
+        .footer-logo { font-size: 20px; font-weight: 800; color: var(--accent); margin-bottom: 15px; display: block; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#" class="logo">SHOAA AL BAHAR</a>
+    <div class="nav-right">
+        <div class="nav-links">
+            <a href="#portfolio">Our Work</a>
+        </div>
+        <a href="#contact" class="nav-links btn-contact-nav">Contact Us</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <div>
+        <h1>SHOAA AL BAHAR</h1>
+        <p>Premium Uniform Manufacturing for Schools, Security, Medical & Corporate Sectors.</p>
+        <a href="#contact" class="btn btn-gold" style="width: auto; padding: 15px 40px;">Request Bulk Quote</a>
+    </div>
+</section>
+
+<section class="trust-bar">
+    <div class="logos">
+        <span>BMW</span> • <span>LAND ROVER</span> • <span>MHD</span> • <span>OTE GROUP</span> • <span>SCHOOLS</span> • <span>SECURITY SECTOR</span>
+    </div>
+</section>
+
+<section class="gallery-container" id="portfolio">
+    <h2>Our <span>Specialized Portfolio</span></h2>
+    <div class="gallery-grid">
+        
+        <div class="gallery-card">
+            <img src="photo1.jpg.jpg?v=1.4" alt="Security Uniforms">
+            <div class="img-label">
+                <span class="category-tag">High-Durability</span>
+                Security Uniforms
+            </div>
+        </div>
+
+        <div class="gallery-card">
+            <img src="photo2.jpg.jpeg?v=1.4" alt="School Uniforms">
+            <div class="img-label">
+                <span class="category-tag">Educational Apparel</span>
+                School Uniforms
+            </div>
+        </div>
+
+        <div class="gallery-card">
+            <img src="photo3.jpg.jpg?v=1.4" alt="Medical Sector">
+            <div class="img-label">
+                <span class="category-tag">Healthcare & Scrubs</span>
+                Medical Sector
+            </div>
+        </div>
+
+        <div class="gallery-card">
+            <img src="photo4.jpg.png?v=1.4" alt="Corporate Uniforms">
+            <div class="img-label">
+                <span class="category-tag">Executive & Showroom</span>
+                Corporate Uniforms
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact-section" id="contact">
+    <div class="contact-info">
+        <h2 style="font-size: 2.5rem;">Partner With Us</h2>
+        <p style="font-size: 1.1rem; margin-bottom: 30px;">Reach out to <strong>SHOAA AL BAHAR</strong> for manufacturing services across the Sultanate.</p>
+        
+        <p><i class="fas fa-envelope" style="color:var(--accent)"></i> <strong>legend367736@gmail.com</strong></p>
+        <p><i class="fas fa-phone" style="color:var(--accent)"></i> <strong>+968 79923132</strong></p>
+        
+        <a href="https://wa.me/96879923132" target="_blank" class="btn whatsapp-btn">
+            <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+    </div>
+
+    <div class="contact-form">
+        <form action="https://formspree.io/f/legend367736@gmail.com" method="POST">
+            <input type="text" name="client" placeholder="Company or School Name" required>
+            <select name="sector">
+                <option value="Security">Security Sector</option>
+                <option value="School">School Sector</option>
+                <option value="Medical">Medical Sector</option>
+                <option value="Corporate">Corporate / Automotive</option>
+            </select>
+            <textarea name="details" rows="5" placeholder="Quantity and special requirements..." required></textarea>
+            <button type="submit" class="btn btn-gold">Send Inquiry</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <span class="footer-logo">SHOAA AL BAHAR</span>
+    <p>Serving BMW, Land Rover, MHD, OTE, and Oman's Leading Institutions for 10+ Years.</p>
+</footer>
+
+</body>
+</html>
